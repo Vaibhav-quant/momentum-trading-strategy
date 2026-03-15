@@ -35,7 +35,17 @@ The notebook generates:
 - Portfolio growth chart
 - Drawdown analysis
 - Strategy vs NIFTY 50 comparison
+## Strategy Overview
 
+This project implements a  momentum strategy.
+
+Stocks are ranked daily based on their 90day return.
+The strategy invests in the top stocks and rebalances
+the portfolio based on updated rankings.
+
+Momentum is a well known factor in quantitative finance where
+stocks that have performed well recently tend to continue
+performing well in the short term.
 ## Author
 
 Vaibhav
